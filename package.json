@@ -1,0 +1,14 @@
+{
+    "name": "ghg",
+    "version": "0.0.1",
+    "homepage": "",
+    "description": "Data Scrapper",
+    "author": "Ian Scheufler",
+    "main": "app.js",
+    "dependencies": {
+        "nodemon": "latest",
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}

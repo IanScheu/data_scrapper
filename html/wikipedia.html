@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="output.js"></script>
+		<script type="text/javascript" >
+			function load() {
+				const div = document.getElementById('data');
+				const title = "<h1 class='title'>"+ output_data.title +"</h1>";
+				const img = "<img src='"+ output_data.image +"'>"
+				const parag = "<p>"+ output_data.firstParagraph +"</p>"
+				div.innerHTML = title + img + parag;
+			}
+		</script>
+	</head>
+	<body onload="load()">
+		<div id="data"></div>
+	</body>
+</html>
